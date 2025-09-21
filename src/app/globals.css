@@ -1,0 +1,15 @@
+@import "tailwindcss";
+
+@theme {
+  --color-primary: #8B4513;
+  --color-secondary: #FFD700;
+  --color-background: #1E1E1E;
+  --color-foreground: #FAF9F6;
+  
+  --font-poppins: var(--font-poppins), sans-serif;
+  --font-raleway: var(--font-raleway), sans-serif;
+}
+
+body {
+  @apply bg-background text-foreground font-poppins;
+}
